@@ -45,6 +45,29 @@ body {
     padding: 10px;
 }
 
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item h1,
+    .carousel-item h2,
+        .carousel-item h3,
+            .carousel-item h4,
+                .carousel-item p {
+                    text-shadow: 2px 2px 1px #000;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .collapsing {
         transition-property: height, visibility;
