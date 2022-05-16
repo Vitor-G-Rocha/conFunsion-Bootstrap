@@ -44,3 +44,10 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .collapsing {
+        transition-property: height, visibility;
+        transition-duration: .35s;
+    }
+}
