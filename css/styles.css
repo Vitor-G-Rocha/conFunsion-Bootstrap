@@ -61,6 +61,10 @@ body {
                     text-shadow: 2px 2px 1px #000;
 }
 
+#reserveBtn {
+    text-shadow: 2px 2px 1px #000;
+}
+
 .carousel-item img {
     position: absolute;
     top: 0;
